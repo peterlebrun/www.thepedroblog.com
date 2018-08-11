@@ -2,6 +2,5 @@ steps:
 - name: gcr.io/cloud-builders/git
   args: ['clone', 'https://github.com/EmielH/tale-hugo.git', 'themes/tale']
 - name: gcr.io/test-quickstart-212223/hugo
-  args: [‘/usr/local/bin/hugo’]
 - name: gcr.io/cloud-builders/gsutil
   args: [“-m”, “ rsync” , “-r” , “ -c”, “-d”, “./public”, “gs://www.thepedroblog.com”]
