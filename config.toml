@@ -1,4 +1,4 @@
-baseURL = "http://www.thepedroblog.com/"
+baseURL = "http://www.thepedroblog.com"
 languageCode = "en-us"
 title = "The Pedro Blog"
 theme = "tale"
