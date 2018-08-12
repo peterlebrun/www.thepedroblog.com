@@ -1,7 +1,7 @@
 +++
 title = "Getting Started with Hugo and Google Cloud Storage"
 author = "Pedro"
-date = "2018-08-12"
+date = 2018-08-12
 +++
 
 ## What is Hugo?
