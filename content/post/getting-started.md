@@ -1,5 +1,5 @@
 +++
-title = "Starting's the harded part"
+title = "Starting's the hardest part"
 date = "2018-08-11"
 author = "Pedro"
 +++
