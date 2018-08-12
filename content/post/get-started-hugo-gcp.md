@@ -42,6 +42,11 @@ echo "themes/*" >> .gitignore
 git clone bar
 cp ./* layouts
 ```
+- For funsies, this is how you build your static site:
+`hugo`
+Seriously.  That's it.
+- Make sure you add `public/*` to your `.gitignore`
+`echo "public/*" >> .gitignore`
 - Turn this into a git repo `git init`
 - Set up a remote
 `git remote add origin {YOUR_REPO_URL}`
@@ -75,5 +80,9 @@ steps:
   args: ['clone', 'https://github.com/EmielH/tale-hugo.git', 'themes/tale']
 - name: gcr.io/{YOUR_PROJECT_ID}/hugo
 - name: gcr.io/cloud-builders/gsutil
-  args: ['-m', 'rsync' , '-r' , '-c', '-d', './public', 'gs://www.thepedroblog.com']
+  args: ['-m', 'rsync' , '-r' , '-c', '-d', './public', 'gs://www.example.com']
 ```
+- This tells us a few things:
+1. Use git (image located at `gcr.io/cloud-builders/git`) to clone my theme into `themes/tale`
+2. Run `hugo` (image located at `gcr.io/{YOUR_PROJECT_ID}/git` (remember this from the last step?)) to build your static site
+3. use `gsutil`'s `rsync` command to move
