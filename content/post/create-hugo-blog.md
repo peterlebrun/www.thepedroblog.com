@@ -1,6 +1,6 @@
 +++
 title = "Create Hugo Blog"
-date = 2018-08-13
+date = 2018-08-12
 draft = false
 +++
 ## What will you learn today?

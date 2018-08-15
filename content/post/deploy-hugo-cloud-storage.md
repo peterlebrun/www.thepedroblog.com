@@ -1,6 +1,6 @@
 +++
 title = "Deploy Hugo Cloud Storage"
-date = 2018-08-15
+date = 2018-08-14
 draft = false
 +++
 ## What will you learn today?

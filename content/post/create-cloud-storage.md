@@ -1,7 +1,7 @@
 +++
 title = "Create Cloud Storage"
 date = 2018-08-14
-draft = true
+draft = false
 +++
 ## What will you learn today?
 Today I'll walk you through creating a Google Cloud Storage bucket, and pointing to it from your own domain name.
