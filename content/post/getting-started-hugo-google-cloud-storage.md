@@ -8,7 +8,7 @@ This three part series will show you how to create and host your own blog using 
 
 - <a href="{{< ref "create-hugo-blog.md" >}}">Part 1: Create your own Hugo Blog</a>
 - <a href="{{< ref "create-cloud-storage.md" >}}">Part 2: Set up your Cloud Storage bucket</a>
-- <a href="{{< ref "deploy-hugo-cloud-storage.md" >}}">Part 3: Set up Cloud Build</a>
+- <a href="{{< ref "" >}}">Part 3: Set up Cloud Build</a>
 
 ## What is Hugo?
 Hugo is a static site generator.  A few days ago I would have said "a blog? I should write my own framework!"  But then I got stuck trying to do CSS.  And I didn't feel like administering a database or a web server.  Turns out that static site generators eliminate most of the hassle of getting good content on the web, reduce your security footprint, provide great scalability (this blog, for instance, is backed by google infrastructure), and can provide insanely fast deployments as well.
