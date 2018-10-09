@@ -1,10 +1,8 @@
 +++
-title = "Should I Get Mba"
+title = "Should I Get an MBA"
 date = 2018-10-08
 draft = false
 +++
-
-#Should you get an MBA?
 
 Many years ago, like any 20-something, I realized that my job was unfulfilling and I needed to do something else.  So, I decided to go to grad school.  Two years later I had an MBA and $100K in student loans, and today I'm an individual contributor software architect (i.e. I'm really not doing anything related to the MBA).
 
